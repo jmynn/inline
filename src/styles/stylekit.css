@@ -1,0 +1,9 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-accent: #429F3A;   
+    --color-text: #444444;
+    --color-light-text: #89817F;
+    --color-light-gray: #B2B2B2;
+
+    --container: min(calc(100% - 40px), 1440px);
+}
