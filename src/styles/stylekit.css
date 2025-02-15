@@ -5,5 +5,7 @@
     --color-light-text: #89817F;
     --color-light-gray: #B2B2B2;
 
-    --container: min(calc(100% - 40px), 1440px);
+    --container: min(calc(100% - 40px), 1066px);
+
+    --transition-basic: all 0.3s ease-in;
 }

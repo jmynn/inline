@@ -12,5 +12,8 @@
     "autoprefixer": "^10.4.20",
     "typescript": "~5.7.2",
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "swiper": "^11.2.4"
   }
 }

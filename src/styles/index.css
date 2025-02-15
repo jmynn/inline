@@ -1,5 +1,7 @@
 @import './nullstyle.css';
 @import './stylekit.css';
+@import './tabs.css';
+@import './products.css';
 
 body {
 	font-weight: 400;
@@ -9,6 +11,11 @@ body {
 	font-family: 'Montserrat', serif;
 	font-size: 14px;
 	background-color: var(--color-white);
+	color: var(--color-text);
+}
+p {
+	line-height: 150%;
+	text-align: justify;
 }
 #content {
 	flex: 1 1 auto;
@@ -21,6 +28,6 @@ body {
 }
 .container {
 	width: var(--container);
-  margin: 0 auto;
-  min-height: 100%;
+	margin: 0 auto;
+	min-height: 100%;
 }
