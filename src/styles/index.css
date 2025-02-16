@@ -17,17 +17,8 @@ p {
 	line-height: 150%;
 	text-align: justify;
 }
-#content {
-	flex: 1 1 auto;
-	display: flex;
-	flex-direction: column;
-	width: inherit;
-}
-.wrapper {
-	width: inherit;
-}
 .container {
 	width: var(--container);
-	margin: 0 auto;
+	margin: 0 auto 15px auto;
 	min-height: 100%;
 }

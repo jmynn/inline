@@ -6,8 +6,15 @@ import 'swiper/swiper-bundle.css';
 document.addEventListener('DOMContentLoaded', () => {
 	initializeTabList();
 	initializeProductSlider();
-	const swiper = new Swiper('.more-products ', {
+	new Swiper('.more-products ', {
 		direction: 'horizontal',
-		enabled: false,
+		enabled: true,
+		width: 288,
+		breakpoints: {
+			1440: {
+				enabled: false,
+				slidesPerView: 4,
+			}
+		}
 	});
 });
